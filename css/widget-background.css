@@ -1,0 +1,5 @@
+/* Chanage specific widget background to make it more prominent on the Overivew page */
+
+#widget-overview .mainwp-widget {
+	background-color: #dadada;
+}

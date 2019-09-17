@@ -1,0 +1,4 @@
+/* Use this snippet to hide the tooltip popups in your MainWP Dashboard */
+
+.mainwp-ui [data-tooltip]:before,
+.mainwp-ui [data-tooltip]:after { display: none !important; }

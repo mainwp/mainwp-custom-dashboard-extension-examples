@@ -1,0 +1,16 @@
+/* Change the color of navigation element */
+
+.mainwp-ui .mainwp-nav-wrap, 
+.mainwp-ui .ui.inverted.menu {
+	background: #ddd;
+}
+
+.mainwp-ui .ui.inverted.menu .item a,
+.mainwp-ui .ui.vertical.inverted.menu .menu .item,
+.mainwp-ui .ui.inverted.icon.menu .item {
+	color: #333;
+}
+
+.mainwp-ui .ui.vertical.inverted.menu .item:before {
+	background: #ccc;
+}

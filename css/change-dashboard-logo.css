@@ -1,0 +1,10 @@
+/* Hide Original logo */
+.mainwp-nav-wrap #mainwp-logo img { 
+	display: none!important;
+}
+
+/* Display yours - Original MainWP logo dimentions are 177 X 35 */
+.mainwp-nav-wrap #mainwp-logo { 
+	background-image: url('PATH/TO/YOUR/LOGO')!important; 
+	background-repeat: no-repeat;
+}

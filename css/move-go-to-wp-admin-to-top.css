@@ -1,0 +1,19 @@
+/* Move the "Go to WP Admin" button to top and add margin-top to compensate for the MainWP logo footprint */
+.mainwp-nav-menu .item-wp-admin { 
+	top: 0!important;
+	bottom: auto!important;
+	margin: 60px 0!important;
+}
+
+/* Adjust mainWP menu margin-top to compensate for the "Go to WP Admin" button footprint */
+.mainwp-ui .ui.menu { 
+	margin-top: 60px!important; 
+}
+
+/* 
+* Add overflow handling to fix menu being cut off 
+*/
+#mainwp-main-menu {
+	max-height: 80vh!important;
+	overflow-y: auto!important;
+}

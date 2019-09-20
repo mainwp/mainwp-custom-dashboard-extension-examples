@@ -1,4 +1,12 @@
-/* Move the "Go to WP Admin" button to top and add margin-top to compensate for the MainWP logo footprint */
+/**
+ * @snippet       Move "Go to WP Admin" button to top
+ * @sourcecode    https://bitbucket.org/snippets/keith_crain/ynkeaR
+ * @author        Keith Crain
+ * @author_url    https://kronoslabs.io
+ * @testedwith    WordPress v5.2.3
+ */
+
+/* Move the "Go to WP Admin" button to top and add margin-top to compensate for the mainWP logo footprint */
 .mainwp-nav-menu .item-wp-admin { 
 	top: 0!important;
 	bottom: auto!important;

@@ -1,10 +1,22 @@
+/**
+ * @snippet       Change MainWP Dashboard logo
+ * @sourcecode    https://bitbucket.org/snippets/keith_crain/8nkApK
+ * @author        Keith Crain
+ * @author_url    https://kronoslabs.io
+ * @testedwith    WordPress v5.2.3
+ *
+ * @param         background-image: url('PATH/TO/YOUR/LOGO')!important;
+ * @How-to-use    Change the absolute url to the logo you want to use.
+ * @Dimentions	  Original MainWP logo dimentions are 177 X 35
+ */
+
 /* Hide Original logo */
 .mainwp-nav-wrap #mainwp-logo img { 
 	display: none!important;
 }
 
-/* Display yours - Original MainWP logo dimentions are 177 X 35 */
+/* Display yours */
 .mainwp-nav-wrap #mainwp-logo { 
 	background-image: url('PATH/TO/YOUR/LOGO')!important; 
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /* missing from mainWP Core */
 }

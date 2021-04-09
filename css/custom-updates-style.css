@@ -1,4 +1,4 @@
-/* Change background color of the updates sub-section /*
+/* Change background color of the updates sub-section */
 
 #mainwp-manage-updates table tr.active table td {
 	background: rgba(227,98,9,0.3) !important;

@@ -18,5 +18,6 @@
 /* Display yours */
 .mainwp-nav-wrap #mainwp-logo { 
 	background-image: url('PATH/TO/YOUR/LOGO')!important; 
-	background-repeat: no-repeat; /* missing from mainWP Core */
+	background-size: contain; /*should of been added as well - addition the MagicWP Team*/
+        background-repeat: no-repeat; /* missing from mainWP Core */
 }

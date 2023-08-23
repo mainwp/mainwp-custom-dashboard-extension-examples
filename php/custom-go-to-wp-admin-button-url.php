@@ -9,12 +9,10 @@
  * @testedwith    WordPress v6.3
  * @testedwith    MainWP Dashboard v4.5
  *
- * @param         admin_url( 'plugins.php' );
- * @How-to-use    Change the page slug with admin_url('PAGE_SLUG.php').
+ * @param         admin_url( 'PAGE_SLUG.php' );
+ * @How-to-use    Change the page slug within admin_url('PAGE_SLUG.php').
+ *                In this example, we are setting the button to go to the `WP > Plugins > Installed Plugins` page ( plugins.php )
  */
-
-//Set custom url for the Go to WP Admin button. In this example, we are setting the button to go to the WP > Plugins > Installed Plugins page
-
 add_filter( 'mainwp_go_back_wpadmin_link', 'mainwp_go_back_wpadmin_link', 10, 1);
 function mainwp_go_back_wpadmin_link( $input ) {
    $input['url'] = admin_url( 'plugins.php' );

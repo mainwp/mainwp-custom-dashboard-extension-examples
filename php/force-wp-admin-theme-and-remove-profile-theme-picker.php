@@ -1,10 +1,13 @@
-<?php
+<?php // DO NOT INCLUDE TAG WHEN PASTING SNIPPET
+
+// Copy here down... 
+
 /**
  * @snippet       Force WP Admin theme and remove profile theme picker
- * @sourcecode    https://bitbucket.org/snippets/keith_crain/5Lg4E9
  * @author        Keith Crain
  * @author_url    https://kronoslabs.io
- * @testedwith    WordPress v5.2.3
+ * @testedwith    WordPress v6.3
+ * @testedwith    MainWP Dashboard v4.5.1.1
  * 
  * @param         midnight ( change this to what theme you want ) 
  * @return        @param

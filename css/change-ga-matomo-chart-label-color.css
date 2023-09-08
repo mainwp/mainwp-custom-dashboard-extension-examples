@@ -1,0 +1,28 @@
+/**
+* @snippet        Change the fill color of GA & Matomo chart X & Y axis labels.
+* @type           MainWP Custom Dashboard CSS snippet.
+* @author         Keith Crain ( MainWP.com )
+* @testedwith     WordPress v6.3
+* @testedwith     MainWP Dashboard v4.5.1.1
+*/
+
+
+#ga-chart-wrapper-new_users > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#ga-chart-wrapper-view > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#ga-chart-wrapper-users > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#ga-chart-wrapper-averageEngagementTime > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#ga-chart-wrapper-new_users > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#ga-chart-wrapper-view > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#ga-chart-wrapper-users > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#ga-chart-wrapper-averageEngagementTime > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#matomo-chart-wrapper-unique_visitors > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#matomo-chart-wrapper-view > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#matomo-chart-wrapper-users > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#matomo-chart-wrapper-average_engagement_time > div > div:nth-child(1) > div > svg g g text[text-anchor="middle"],
+#matomo-chart-wrapper-unique_visitors > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#matomo-chart-wrapper-view > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#matomo-chart-wrapper-users > div > div:nth-child(1) > div > svg g g text[text-anchor="end"],
+#matomo-chart-wrapper-average_engagement_time > div > div:nth-child(1) > div > svg g g text[text-anchor="end"]{ 
+	fill: #8C8A8A !important;
+	display: block;
+}

@@ -7,7 +7,7 @@
  *
  * @param         background-image: url('PATH/TO/YOUR/LOGO')!important;
  * @How-to-use    Change the absolute url to the logo you want to use.
- * @Dimentions	  Original MainWP logo dimensions are 72 X 72 (Image must be 72x72 to be seen!)
+ * @Dimentions	  Original MainWP logo dimensions are 72 X 72 ( Image will resize to these dimensions )
  */
 
 /* Hide Original logo */
@@ -17,9 +17,10 @@
 
 /* Display yours */
 #mainwp-first-level-navigation > a {
+	display: block;
 	height: 72px !important;
 	width: 72px !important;
 	background-image: url('PATH/TO/YOUR/LOGO') !important; 
-	background-repeat: no-repeat; /* missing from mainWP Core */
-	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
 }

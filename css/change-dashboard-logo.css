@@ -1,9 +1,9 @@
 /**
- * @snippet       Change MainWP Dashboard logo
- * @author        Keith Crain
- * @author_url    https://kronoslabs.io
- * @testedwith    WordPress v6.3
- * @testedwith    MainWP Dashboard v4.5
+ * @snippet         Change MainWP Dashboard logo
+ * @author          Keith Crain
+ * @author_url      https://kronoslabs.io
+ * @tested-up-to    WordPress v6.4.3
+ * @tested-up-to   MainWP Dashboard v5.0.1
  *
  * @param         background-image: url('PATH/TO/YOUR/LOGO')!important;
  * @How-to-use    Change the absolute url to the logo you want to use.

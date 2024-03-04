@@ -16,7 +16,7 @@
 }
 
 /* Display yours */
-#mainwp-first-level-navigation > a {
+#mainwp-first-level-navigation-logo > a { {
 	display: block;
 	height: 72px !important;
 	width: 72px !important;

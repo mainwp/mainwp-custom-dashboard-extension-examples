@@ -5,10 +5,11 @@
  * @tested-up-to    WordPress v6.4.3
  * @tested-up-to    MainWP Dashboard v5.0.1
  *
- * @param         background-image: url('PATH/TO/YOUR/LOGO')!important;
- * @How-to-use    Change the absolute url to the logo you want to use.
- * @Dimentions	  Original MainWP logo dimensions are 72 X 72 ( Height dimention is needed to be visable. )
- * @Customizing   You may change the height to match your image if needed - Default is 72px;
+ * @param           background-image: url('PATH/TO/YOUR/LOGO')!important;
+ * @param           height: 72px !important
+
+ * @How-to-use      Change the absolute url to the logo you want to use. You may change the height to match your image if needed - Default is 72px;
+ * @Dimentions	    Original MainWP logo dimensions are 72 X 72 ( Height dimention is needed to be visable. )
  */
 
 /* Hide Original logo */

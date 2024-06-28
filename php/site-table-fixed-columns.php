@@ -16,3 +16,4 @@ add_filter( 'mainwp_sites_table_features', 'mycustom_fixed_columns', 10, 1 );
 function mycustom_fixed_columns( $table_features ) {
 	$table_features['fixedColumns'] = "{left:3}";
 	return $table_features;
+}

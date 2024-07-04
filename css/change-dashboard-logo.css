@@ -2,8 +2,8 @@
  * @snippet         Change MainWP Dashboard logo
  * @author          Keith Crain
  * @author_url      https://kronoslabs.io
- * @tested-up-to    WordPress v6.4.3
- * @tested-up-to    MainWP Dashboard v5.0.1
+ * @tested-up-to    WordPress v6.5.5
+ * @tested-up-to    MainWP Dashboard v5.1
  *
  * @param           background-image: url('PATH/TO/YOUR/LOGO')!important;
  * @param           height: 72px !important
@@ -13,16 +13,15 @@
  */
 
 /* Hide Original logo */
-#mainwp-first-level-navigation #mainwp-navigation-icon { 
+#mainwp-navigation-icon { 
 	display: none!important;
 }
 
 /* Display yours */
-#mainwp-first-level-navigation-logo > a {
+#mainwp-top-header > div > div.center.aligned.middle.aligned.column > a {
 	display: block;
 	height: 72px !important;
-	background-image: url('PATH/TO/YOUR/LOGO') !important; 
+	background-image: url('https://com.klbs.host/wp-content/uploads/2023/08/console-2.png') !important; 
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-
